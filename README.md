@@ -43,11 +43,6 @@ Others: Git, GitHub, Markdown, VS Code
 📊 Dissertation project using ML to predict success of early-stage start-ups  
 
 
----
-
-## 📈 GitHub Stats
-
-![Naimur's GitHub Stats](https://github-readme-stats.vercel.app/api?username=NaimurRahmanR&show_icons=true&theme=tokyonight)
 
 ---
 
