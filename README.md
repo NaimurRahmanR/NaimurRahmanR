@@ -1,6 +1,6 @@
 # Hi, I'm Naimur Rahman 
 
-Machine Learning Researcher** | MSc Big Data & Data Science    
+Machine Learning Researcher | MSc Big Data & Data Science    
 🇬🇧 Based in the UK
 
 ---
