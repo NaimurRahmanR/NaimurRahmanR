@@ -1,52 +1,123 @@
-# Hi, I'm Naimur Rahman 
+# Naimur Rahman
 
-Machine Learning Researcher | MSc Big Data & Data Science    
-🇬🇧 Based in the UK
+**Machine Learning Researcher | MSc Big Data & Data Science | Computational Social Science, Reliability, and Applied AI**  
+Based in the United Kingdom
 
----
+I build research-grade machine learning systems for high-stakes prediction problems where accuracy alone is not enough. My current work focuses on model reliability under distribution shift, temporal validation, calibration, explainability stability, and reproducible empirical workflows.
 
-##  About Me
-
-I'm a data-driven problem solver with a passion for building intelligent systems that deliver real-world impact. With a solid academic background (MSc Distinction, Northumbria University) and a growing portfolio of machine learning research projects, I'm committed to advancing the frontiers of applied ML and AI through doctoral research.
-
--  **Research Interests:** Machine learning for security (anomaly detection, intrusion detection), predictive modelling for complex systems, deep learning in domain-specific applications
--  Building my GitHub with real-world datasets, rigorous ML pipelines, and research-grade project documentation
--  Targeting PhD positions in ML/AI at German and European universities (starting 2026)
--  Eager to collaborate on impactful AI & data science research projects
+I am developing a doctoral-level research profile at the intersection of machine learning, computational social science, security analytics, and decision-support systems.
 
 ---
 
-##  Tech Stack
+## Research Focus
+
+My research interests centre on trustworthy machine learning for complex, changing environments:
+
+- **Temporal distribution shift** in predictive models
+- **Conflict escalation and geopolitical risk forecasting**
+- **Model reliability, calibration, and uncertainty-aware evaluation**
+- **Leakage-safe feature engineering for time-indexed data**
+- **Explainability stability across temporal and domain shifts**
+- **Applied ML for security, finance, healthcare, and environmental risk**
+- **Reproducible research software for journal-grade empirical studies**
+
+I am especially interested in models that must remain useful when deployed beyond the historical conditions in which they were trained.
+
+---
+
+## Current Research Programme
+
+### Reliability of Machine Learning for Conflict Escalation Forecasting under Temporal Distribution Shift
+
+Repository: [geopolitical-conflict-ml-temporal-shift](https://github.com/NaimurRahmanR/geopolitical-conflict-ml-temporal-shift)
+
+This project investigates whether machine learning models for conflict escalation forecasting remain reliable under realistic temporal evaluation. The repository is structured as a reproducibility package with modular code, documented data requirements, temporal split experiments, calibration analysis, bootstrap confidence intervals, drift diagnostics, ablation studies, and reviewer-facing documentation.
+
+Key methodological commitments:
+
+- Temporal train/test evaluation rather than random split as the primary result
+- Leakage-safe lag construction for external indicators and regional conflict features
+- Robustness across multiple split years
+- Calibration and reliability analysis using Brier score, ECE, and log loss
+- Drift analysis using PSI and KS statistics
+- Explanation stability through coefficient and permutation-importance comparisons
+- Reproducible tables, figures, tests, and CI
+
+---
+
+## Selected Projects
+
+### Predicting Early-Stage Startup Success Using Machine Learning
+
+Repository: [Predicting-Early-Stage-Startup-Success-Using-Machine-Learning](https://github.com/NaimurRahmanR/Predicting-Early-Stage-Startup-Success-Using-Machine-Learning)
+
+MSc dissertation project using machine learning to analyse startup success from structured venture data. The work applies classification models including LightGBM, XGBoost, and Random Forest, with emphasis on predictive performance, feature interpretation, and practical decision-support value.
+
+### Loan Default Prediction
+
+Repository: [LoanDefaultPredictor](https://github.com/NaimurRahmanR/LoanDefaultPredictor)
+
+Credit-risk modelling project using supervised learning for default prediction. The project demonstrates applied classification, model evaluation, and risk-oriented interpretation for financial decision contexts.
+
+### Heart Attack Risk Prediction
+
+Repository: [Heart_attack_ML](https://github.com/NaimurRahmanR/Heart_attack_ML)
+
+Healthcare machine learning project focused on risk classification from patient-level features. The project highlights the importance of evaluation beyond headline accuracy in sensitive applied domains.
+
+### Coral Bleaching Prediction
+
+Repository: [Coral-Bleach-Predicor](https://github.com/NaimurRahmanR/Coral-Bleach-Predicor)
+
+Environmental prediction project applying machine learning to coral bleaching risk using ecological and climate-related covariates.
+
+---
+
+## Methods and Tools
 
 **Languages:** Python, SQL, R, Dart, Java  
-**ML & Data Science:** Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, PyTorch  
-**Visualization & BI:** Matplotlib, Seaborn, Tableau, Power BI  
-**Cloud & Platforms:** Google Colab, Azure, AWS (basic)  
-**Others:** Git, GitHub, Jupyter, VS Code, CI/CD basics
+**Machine Learning:** scikit-learn, XGBoost, LightGBM, TensorFlow, Keras, PyTorch  
+**Data and Statistics:** pandas, NumPy, SciPy, bootstrap inference, temporal validation, calibration metrics  
+**Visualisation:** Matplotlib, Seaborn, Tableau, Power BI  
+**Research Workflow:** Jupyter, Git, GitHub Actions, reproducibility documentation, modular Python packages  
+**Platforms:** Google Colab, Azure, AWS basics
 
 ---
 
-##  Featured Projects
+## Research Standards I Aim For
 
- **[Predicting Early-Stage Startup Success Using Machine Learning](https://github.com/NaimurRahmanR/Predicting-Early-Stage-Startup-Success-Using-Machine-Learning)**  
- MSc dissertation: ML-based analysis of 23K+ startups using classification models (LightGBM, XGBoost, Random Forest). Achieved F1=0.76, ROC-AUC=0.83 on predicting startup success.
+I try to make my repositories useful to supervisors, reviewers, and collaborators by including:
 
- **[LoanDefaultPredictor](https://github.com/NaimurRahmanR/LoanDefaultPredictor)**  
- Credit risk modelling using Gradient Boosting on 10K loan records (20 features). Achieved 0.84 ROC-AUC and 0.78 F1-score for default prediction.
-
- **[Heart Attack Risk Prediction](https://github.com/NaimurRahmanR/Heart_attack_ML)**  
- Healthcare ML project: Random Forest classifier on 1K patient records achieving 0.87 ROC-AUC for heart attack risk assessment.
-
- **[Coral Bleaching Prediction](https://github.com/NaimurRahmanR/Coral-Bleach-Predicor)**  
- Environmental ML: XGBoost model on 5K reef observations achieving 0.82 accuracy for coral bleaching prediction using SST and pH data.
+- Clear research questions and methodological assumptions
+- Reproducible environment files and execution scripts
+- Modular source code rather than notebook-only workflows
+- Data dictionaries and explicit raw-data instructions
+- Tests for core preprocessing, feature engineering, and metrics
+- Careful treatment of leakage, temporal validation, and uncertainty
+- Documentation that explains not only what was done, but why it was done that way
 
 ---
 
-## Let's Connect
+## Academic Direction
 
-- 📧 Email: [naimurrahmanrahee@gmail.com]
-  
+I am preparing for PhD-level research in machine learning and applied AI, with a particular interest in European doctoral programmes focused on trustworthy AI, computational social science, security analytics, and high-stakes predictive modelling.
+
+I welcome research conversations around:
+
+- Temporal robustness and distribution shift
+- Conflict and geopolitical forecasting
+- Applied ML reliability and calibration
+- Reproducible computational social science
+- Research software engineering for empirical ML studies
 
 ---
 
-*"Start where you are. Use what you have. Do what you can." – Arthur Ashe*
+## Contact
+
+Email: [naimurrahmanrahee@gmail.com](mailto:naimurrahmanrahee@gmail.com)
+
+GitHub: [NaimurRahmanR](https://github.com/NaimurRahmanR)
+
+---
+
+> Building machine learning systems that remain credible when the world changes.
