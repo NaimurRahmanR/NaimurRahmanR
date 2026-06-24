@@ -25,7 +25,7 @@ I am especially interested in models that must remain useful when deployed beyon
 
 ---
 
-## Current Research Programme
+## Flagship Research Programme
 
 ### Reliability of Machine Learning for Conflict Escalation Forecasting under Temporal Distribution Shift
 
@@ -45,31 +45,27 @@ Key methodological commitments:
 
 ---
 
-## Selected Projects
+## Featured Research Repositories
 
-### Predicting Early-Stage Startup Success Using Machine Learning
+These are the repositories I would keep pinned because together they show a coherent PhD-level identity: reliability under shift, explainability, applied prediction, and high-stakes empirical machine learning.
 
-Repository: [Predicting-Early-Stage-Startup-Success-Using-Machine-Learning](https://github.com/NaimurRahmanR/Predicting-Early-Stage-Startup-Success-Using-Machine-Learning)
+| Repository | Research Signal | Methods / Contribution |
+| --- | --- | --- |
+| [geopolitical-conflict-ml-temporal-shift](https://github.com/NaimurRahmanR/geopolitical-conflict-ml-temporal-shift) | Flagship computational social science project | Temporal validation, leakage-safe lags, calibration, drift analysis, ablations, reproducibility package |
+| [temporal-shift-explainability-instability](https://github.com/NaimurRahmanR/temporal-shift-explainability-instability) | Explainability under temporal shift | Stability of feature attributions, model interpretation risk, time-aware robustness analysis |
+| [Predicting-Early-Stage-Startup-Success-Using-Machine-Learning](https://github.com/NaimurRahmanR/Predicting-Early-Stage-Startup-Success-Using-Machine-Learning) | MSc dissertation / venture prediction | Structured ML pipeline, classification, feature interpretation, entrepreneurial finance analytics |
+| [LoanDefaultPredictor](https://github.com/NaimurRahmanR/LoanDefaultPredictor) | Financial risk modelling | Credit-risk classification, model evaluation, decision-support framing |
+| [Heart_attack_ML](https://github.com/NaimurRahmanR/Heart_attack_ML) | Healthcare risk prediction | Sensitive-domain classification, patient-level prediction, evaluation beyond accuracy |
+| [Coral-Bleach-Predictor](https://github.com/NaimurRahmanR/Coral-Bleach-Predictor) | Environmental ML | Climate/ecological risk prediction, applied modelling with environmental covariates |
 
-MSc dissertation project using machine learning to analyse startup success from structured venture data. The work applies classification models including LightGBM, XGBoost, and Random Forest, with emphasis on predictive performance, feature interpretation, and practical decision-support value.
+Suggested actual GitHub pins, in order:
 
-### Loan Default Prediction
-
-Repository: [LoanDefaultPredictor](https://github.com/NaimurRahmanR/LoanDefaultPredictor)
-
-Credit-risk modelling project using supervised learning for default prediction. The project demonstrates applied classification, model evaluation, and risk-oriented interpretation for financial decision contexts.
-
-### Heart Attack Risk Prediction
-
-Repository: [Heart_attack_ML](https://github.com/NaimurRahmanR/Heart_attack_ML)
-
-Healthcare machine learning project focused on risk classification from patient-level features. The project highlights the importance of evaluation beyond headline accuracy in sensitive applied domains.
-
-### Coral Bleaching Prediction
-
-Repository: [Coral-Bleach-Predicor](https://github.com/NaimurRahmanR/Coral-Bleach-Predicor)
-
-Environmental prediction project applying machine learning to coral bleaching risk using ecological and climate-related covariates.
+1. `geopolitical-conflict-ml-temporal-shift`
+2. `temporal-shift-explainability-instability`
+3. `Predicting-Early-Stage-Startup-Success-Using-Machine-Learning`
+4. `LoanDefaultPredictor`
+5. `Heart_attack_ML`
+6. `Coral-Bleach-Predictor`
 
 ---
 
